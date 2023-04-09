@@ -11,7 +11,6 @@ module "vpc" {
   enable_nat_gateway                             = true
   enable_vpn_gateway                             = false
   enable_ipv6                                    = true
-  assign_ipv6_address_on_creation                = true
   private_subnet_assign_ipv6_address_on_creation = false
   public_subnet_ipv6_prefixes                    = [0]
   private_subnet_ipv6_prefixes                   = [1]
