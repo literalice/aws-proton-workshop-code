@@ -1,0 +1,3 @@
+variable "mytestenv" {
+  type = string
+}
